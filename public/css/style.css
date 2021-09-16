@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center-cntr {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mychart {
+  height: 80vh !important;
+  width: 80vw !important;
+}
+
+.recharts-legend-wrapper {
+  top: 60px !important;
+}
+
+.selection {
+  position: absolute;
+  float: left;
+  top: 50px;
+  left: 190px;
+  height: 32px;
+  width: 200px;
+  z-index: 2;
+}
